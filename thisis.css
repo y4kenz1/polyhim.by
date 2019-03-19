@@ -35,6 +35,8 @@ body .name .name-text .name-undertitle {
 body .about {
   width: 1920px;
   float: left;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 body .about .about-title,
 body .about .about-text {
@@ -44,7 +46,6 @@ body .about .about-title {
   font-size: 60px;
   margin-left: 436px;
   margin-right: 436px;
-  margin-top: 50px;
   color: #171ab5;
 }
 body .about .about-text {
@@ -54,5 +55,32 @@ body .about .about-text {
   margin-left: 550px;
   margin-right: 550px;
   margin-top: 30px;
+}
+body .plastima {
+  width: 1920px;
+  float: left;
+  margin-top: 50px;
   margin-bottom: 50px;
+}
+body .plastima .plastima-text {
+  font-size: 25px;
+  text-align: center;
+  width: 600px;
+  margin-left: 650px;
+  margin-right: 650px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+body .plastima .plastima-text .plastima-text-intext {
+  color: #171ab5;
+  font-weight: bold;
+}
+body .plastima .plastima-button {
+  background-color: #171ab5;
+  text-align: center;
+  margin-left: 800px;
+  margin-right: 800px;
+  width: 300px;
+  height: 60px;
+  font-size: 25px;
 }
