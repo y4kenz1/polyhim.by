@@ -84,3 +84,29 @@ body .plastima .plastima-button {
   height: 60px;
   font-size: 25px;
 }
+body .product {
+  width: 1920px;
+}
+body .product .product-title {
+  font-size: 60px;
+  margin-left: 800px;
+  margin-right: 800px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  color: #171ab5;
+  text-align: center;
+}
+body .product .card {
+  border-color: #171ab5;
+  border-width: 2px;
+  margin-left: 50px;
+  margin-top: 50px;
+  float: left;
+  height: 650px;
+}
+body .product .card .card-body .card-title {
+  font-size: 18px;
+}
+body .product .card .card-body .card-text {
+  font-size: 15px;
+}
