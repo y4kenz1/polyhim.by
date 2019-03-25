@@ -10,32 +10,30 @@ body {
   width: auto;
 }
 body .name {
+  width: 100%;
   float: left;
   position: relative;
 }
 body .name .name-bg {
-  width: auto;
+  width: 4000px;
   height: auto;
   position: relative;
 }
 body .name .name-text {
-  position: absolute;
-  top: 30%;
+  margin: 400px;
   text-align: center;
   color: #171ab5;
 }
 body .name .name-text .name-title {
   font-size: 100px;
-  margin-left: 436px;
-  margin-right: 436px;
+  width: 100%;
 }
 body .name .name-text .name-undertitle {
   font-size: 30px;
-  width: 800px;
-  margin-left: 550px;
-  margin-right: 550px;
+  width: 100%;
 }
 body .about {
+  width: 100%;
   float: left;
   margin-bottom: 50px;
   margin-top: 50px;
@@ -45,20 +43,18 @@ body .about .about-text {
   text-align: center;
 }
 body .about .about-title {
+  width: 100%;
   font-size: 60px;
-  margin-left: 436px;
-  margin-right: 436px;
   color: #171ab5;
 }
 body .about .about-text {
+  width: 100%;
   font-size: 20px;
   text-align: center;
-  width: 800px;
-  margin-left: 550px;
-  margin-right: 550px;
   margin-top: 30px;
 }
 body .plastima {
+  width: 100%;
   float: left;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -66,9 +62,7 @@ body .plastima {
 body .plastima .plastima-text {
   font-size: 25px;
   text-align: center;
-  width: 600px;
-  margin-left: 650px;
-  margin-right: 650px;
+  width: 100%;
   margin-top: 30px;
   margin-bottom: 50px;
 }
@@ -79,22 +73,25 @@ body .plastima .plastima-text .plastima-text-intext {
 body .plastima .plastima-button {
   background-color: #171ab5;
   text-align: center;
-  margin-left: 800px;
-  margin-right: 800px;
-  width: 300px;
+  width: 200px;
   height: 60px;
   font-size: 25px;
 }
+body .product {
+  width: 100%;
+}
 body .product .product-title {
   font-size: 60px;
-  margin-left: 800px;
-  margin-right: 800px;
+  width: 100%;
   margin-bottom: 50px;
   margin-top: 50px;
   color: #171ab5;
   text-align: center;
 }
-body .product .card {
+body .product .carddfd {
+  width: 100%;
+}
+body .product .carddfd .card {
   border-color: #171ab5;
   border-width: 2px;
   margin-left: 50px;
@@ -102,13 +99,14 @@ body .product .card {
   float: left;
   height: 650px;
 }
-body .product .card .card-body .card-title {
+body .product .carddfd .card .card-body .card-title {
   font-size: 18px;
 }
-body .product .card .card-body .card-text {
+body .product .carddfd .card .card-body .card-text {
   font-size: 15px;
 }
 body .companies {
+  width: 100%;
   float: left;
   margin-bottom: 50px;
   margin-top: 50px;
@@ -119,22 +117,20 @@ body .companies .companies-text {
 }
 body .companies .companies-title {
   font-size: 60px;
-  margin-left: 436px;
-  margin-right: 436px;
+  width: 100%;
   color: #171ab5;
 }
 body .companies .companies-text {
   font-size: 20px;
   text-align: center;
-  width: 800px;
-  margin-left: 550px;
-  margin-right: 550px;
+  width: 100%;
   margin-top: 30px;
 }
 body .companies .col {
   margin: 50px;
 }
 body .contacts {
+  width: 100%;
   float: left;
   margin-bottom: 50px;
   margin-top: 50px;
@@ -145,15 +141,12 @@ body .contacts .contacts-text {
 }
 body .contacts .contacts-title {
   font-size: 60px;
-  margin-left: 436px;
-  margin-right: 436px;
+  width: 100%;
   color: #171ab5;
 }
 body .contacts .contacts-text {
   font-size: 20px;
   text-align: center;
-  width: 800px;
-  margin-left: 550px;
-  margin-right: 550px;
+  width: 100%;
   margin-top: 30px;
 }
