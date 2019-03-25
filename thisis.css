@@ -10,10 +10,6 @@ body {
   width: auto;
 }
 body .name {
-  background-image: url(images/bg.jpg);
-  background-size: 100%;
-  height: auto;
-  background-repeat: no-repeat;
   width: 100%;
   float: left;
 }
@@ -23,11 +19,12 @@ body .name .name-text {
   color: #171ab5;
 }
 body .name .name-text .name-title {
-  font-size: 100px;
+  font-size: 90px;
   text-align: center;
 }
 body .name .name-text .name-undertitle {
   font-size: 30px;
+  margin-top: 20px;
 }
 body .about {
   width: 100%;
